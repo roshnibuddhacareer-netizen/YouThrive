@@ -25,7 +25,8 @@ const corsOptions = {
         }
         // Allow anything explicity listed in CLIENT_URL (comma-seperated)
         if (allowedOrigins.includes(origin)) return cb(null, true);
-        return cb(new Error(`Origin ${origin} not allowed by CORS`));
+        console.log("Blocked by CORS:", origin);
+        return cb(null, false);
     },
     credentials: true, 
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
