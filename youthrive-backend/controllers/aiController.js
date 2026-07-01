@@ -85,9 +85,30 @@ export const getWeeklyReport = async (req, res) => {
 // ---------------------------------------------------------------------------
 const DEFAULT_SUGGESTIONS = {
   suggestions: [
-    "Shrink the habit down to a 2-minute version to lower the barrier to starting.",
-    "Stack it onto something you already do daily, like brushing your teeth or making coffee.",
-    "Pick one specific time and place for it so it stops needing a decision each day.",
+    {
+      icon: "⏱️",
+      name: "2-Minute Version",
+      category: "General",
+      frequency: "Daily",
+      description: "Shrink the habit down to a 2-minute version to lower the barrier to starting.",
+      reason: "A personalized plan couldn't be generated, so here's a general low-friction strategy.",
+    },
+    {
+      icon: "🔗",
+      name: "Habit Stacking",
+      category: "General",
+      frequency: "Daily",
+      description: "Stack it onto something you already do daily, like brushing your teeth or making coffee.",
+      reason: "A personalized plan couldn't be generated, so here's a general low-friction strategy.",
+    },
+    {
+      icon: "📍",
+      name: "Fixed Time & Place",
+      category: "General",
+      frequency: "Daily",
+      description: "Pick one specific time and place for it so it stops needing a decision each day.",
+      reason: "A personalized plan couldn't be generated, so here's a general low-friction strategy.",
+    },
   ],
   reasoning:
     "These are general, low-friction strategies for building consistency, used here because a personalized plan couldn't be generated.",

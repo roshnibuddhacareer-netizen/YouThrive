@@ -40,8 +40,12 @@ recap (3-5 sentences) of the user's habit data: highlight their strongest
 streak, gently note one habit that slipped, and suggest one focus for next
 week.`,
 
-  suggestion: `You are a habit-formation expert. A user is struggling with a
-habit. Respond ONLY with valid JSON: {"suggestions": ["string","string","string"], "reasoning": "string"}.
+  suggestion: `You are a habit-formation expert. Based on the user's goals,
+most productive time of day, and current struggles, suggest exactly 3 new
+habits they could start. Respond ONLY with valid JSON in this exact shape:
+{"suggestions": [
+  {"icon": "single emoji", "name": "short habit name", "category": "one word like Health, Focus, Mindfulness", "frequency": "e.g. Daily or 3x/week", "description": "one sentence describing the habit", "reason": "one sentence on why it fits this specific user"}
+], "reasoning": "string"}
 Suggestions should be small and realistic, reducing friction rather than
 relying on willpower.`,
 
