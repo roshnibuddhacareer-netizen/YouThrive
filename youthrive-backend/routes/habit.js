@@ -1,5 +1,5 @@
 import express from "express";
-import { getHabits, createHabit, updateHabit, deleteHabit, toggleHabit, getLogs, reorderHabits } from "../controllers/habitController.js";
+import { getHabits, createHabit, updateHabit, deleteHabit, toggleHabit, getLogs, reorderHabits } from "../controllers/HabitController.js";
 import { protect } from "../middleware/Auth.js";
 
 const router = express.Router();

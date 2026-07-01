@@ -7,7 +7,7 @@ import {
   getHeatmap,
   getStats,
   getHabitStats,
-} from "../controllers/logController.js";
+} from "../controllers/LogController.js";
 import { protect } from "../middleware/Auth.js";
 
 const router = express.Router();
