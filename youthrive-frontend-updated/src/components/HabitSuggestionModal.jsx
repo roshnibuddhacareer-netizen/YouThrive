@@ -26,16 +26,19 @@ export default function HabitSuggestionModal({ open, onClose, onAccept }) {
     onClose();
   };
 
-  const submit = async () => {
+ const submit = async () => {
     setLoading(true);
     try {
-      const res = await api.post("/ai/suggest-habits", {
+      const res = await api.post("/ai/suggestions", {
         goals,
         productiveTime,
         struggles,
       });
       setSuggestions(res.data.suggestions || []);
       setStep(3);
+    } catch (err) {
+      console.error("Failed to get habit suggestions:", err);
+      alert("Something went wrong getting suggestions. Please try again.");
     } finally {
       setLoading(false);
     }
