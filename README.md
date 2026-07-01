@@ -1,7 +1,9 @@
+
 🌱 YouThrive
 
 A full stack habit tracking web application that helps users build consistent routines and understand their daily progress through data, visualizations, and personalized AI feedback.
 
+Check it out: https://youthrive-habit-tracker.vercel.app
 
 📋 Overview
 
