@@ -1,11 +1,11 @@
 🌱 YouThrive
 
-A full-stack habit tracking web application that helps users build consistent routines and understand their daily progress through data, visualizations, and personalized AI feedback.
+A full stack habit tracking web application that helps users build consistent routines and understand their daily progress through data, visualizations, and personalized AI feedback.
 
 
 📋 Overview
 
-YouThrive is a full-stack habit tracking web application that helps users build consistent routines and better understand their daily progress. Along with creating and managing habits, users can view interactive analytics, track their progress over time, and receive personalized AI insights based on their activity. The goal was to build an application that goes beyond simply checking off habits by providing meaningful feedback in a clean, intuitive interface.
+YouThrive is a full stack habit tracking web application that helps users build consistent routines and better understand their daily progress. Along with creating and managing habits, users can view interactive analytics, track their progress over time, and receive personalized AI insights based on their activity. The goal was to build an application that goes beyond simply checking off habits by providing meaningful feedback in a clean, intuitive interface.
 
 🛠️ Tech Stack
 
@@ -49,7 +49,7 @@ Using Recharts made it easier for users to quickly understand their progress thr
 
 📚 What This Project Taught Me
 
-Building YouThrive gave me practical experience developing a full-stack application from start to finish. I became more confident working with REST APIs, JWT authentication, MongoDB, and connecting a React frontend to an Express backend. I also learned how to structure a larger codebase, build reusable components, integrate third-party APIs, and present data in a way that's easy for users to understand. More than anything, this project reinforced how much planning, organization, and iteration goes into creating an application that feels polished and easy to use.
+Building YouThrive gave me practical experience developing a full stack application from start to finish. I became more confident working with REST APIs, JWT authentication, MongoDB, and connecting a React frontend to an Express backend. I also learned how to structure a larger codebase, build reusable components, integrate third-party APIs, and present data in a way that's easy for users to understand. More than anything, this project reinforced how much planning, organization, and iteration goes into creating an application that feels polished and easy to use.
 
 🚀 Why I Built This
 
