@@ -28,7 +28,7 @@ export default function Navbar() {
   try {
     const res = await api.put("/auth/update-profile", { name, morningMotivation: morning });
     const { token, ...userData } = res.data;
-    updateUser(userData);
+    updateUser(res.data);
     setSettingsOpen(false);
   } finally { setSaving(false); }
 };
